@@ -1,0 +1,17 @@
+{
+  "name": "wedding-jayschika-api",
+  "version": "1.0.0",
+  "description": "API for Wedding Jays & Chika",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jays R",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
