@@ -118,4 +118,4 @@ app.delete('/ucapan/:nama', (request, response) => {
 });
 
 // mendengarkan event yang terjadi pada localhost dengan port 3000
-app.listen(3000, () => console.log('listenig on localhost:3000'));
+app.listen(process.env.PORT || 3000);
