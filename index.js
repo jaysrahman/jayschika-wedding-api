@@ -1,11 +1,13 @@
 // merujuk express, body-parser
 const express = require('express');
 const bodyParser = require('body-parser');
+import cors from 'cors';
 
 // instansiasi obejct express dan di simpan pada konstanta app
 const app = express();
 
 // gunakan body parser sebgai middleware
+app.use(cors());
 app.use(bodyParser.json());
 
 // untuk sementara kita anggap variable db ini sebagai sumber data kita
