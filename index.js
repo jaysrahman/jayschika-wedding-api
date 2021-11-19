@@ -1,7 +1,8 @@
 // merujuk express, body-parser
 const express = require('express');
 const bodyParser = require('body-parser');
-import cors from 'cors';
+const cors = require('cors')
+// import cors from 'cors';
 
 // instansiasi obejct express dan di simpan pada konstanta app
 const app = express();
